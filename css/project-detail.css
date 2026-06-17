@@ -52,9 +52,9 @@
   padding-bottom: 24px;
 }
 
-.project-detail__section:first-child {
-  margin-top: 64px;
-  margin-bottom: 64px;
+.project-detail__section:first-of-type {
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 
 /* Section label — left column */

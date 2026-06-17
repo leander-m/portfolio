@@ -11,29 +11,21 @@
   <link rel="stylesheet" href="/css/style.css">
   <style>
     .four-oh-four {
-      position: relative;
+      display: flex;
+      flex-direction: column;
       height: 100vh;
       width: 100%;
-      overflow: hidden;
     }
 
     .four-oh-four__scene {
-      position: absolute;
-      inset: 0;
+      flex: 1;
       width: 100%;
-      height: 100%;
     }
 
     .four-oh-four__content {
-      position: relative;
-      z-index: 1;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      height: 100%;
-      text-align: center;
       padding: var(--padding-x);
+      padding-top: 24px;
+      padding-bottom: 24px;
     }
 
     .four-oh-four__title {
@@ -75,8 +67,6 @@
   <main class="four-oh-four">
     <div class="four-oh-four__scene" data-us-project="uUi6NfbKiGBzOED6CUbV"></div>
     <div class="four-oh-four__content">
-      <h1 class="four-oh-four__title">404</h1>
-      <p class="four-oh-four__text">Page not found.</p>
       <a href="/index.html" class="four-oh-four__link">Back to projects</a>
     </div>
   </main>

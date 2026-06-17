@@ -1,0 +1,51 @@
+.rolling-text {
+  --rolling-duration: 0.4s;
+  --rolling-stagger: 0.02s;
+  --rolling-ease: cubic-bezier(0.65, 0, 0.35, 1);
+
+  display: inline-flex;
+  overflow: visible;
+  cursor: pointer;
+  font: inherit;
+  color: inherit;
+  text-decoration: none;
+}
+
+.rolling-text__char {
+  display: inline-block;
+  overflow: hidden;
+  height: 1.1em;
+  line-height: 1.1;
+  vertical-align: bottom;
+}
+
+.rolling-text__char--space {
+  width: 0.3em;
+}
+
+.rolling-text__inner {
+  display: block;
+  transition: transform var(--rolling-duration) var(--rolling-ease);
+}
+
+.rolling-text.is-rolling .rolling-text__inner {
+  transform: translateY(-50%);
+}
+
+.rolling-text__inner span {
+  display: block;
+  height: 1.1em;
+  line-height: 1.1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rolling-text__inner {
+    transition: none;
+  }
+
+  .rolling-text.is-rolling .rolling-text__inner {
+    transform: none;
+    opacity: 0.6;
+    transition: opacity 0.15s ease;
+  }
+}

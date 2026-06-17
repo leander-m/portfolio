@@ -1,0 +1,15 @@
+@import 'reset.css';
+@import 'variables.css';
+@import 'grid.css';
+@import 'nav.css';
+@import 'rolling-text.css';
+@import 'projects.css';
+@import 'project-detail.css';
+@import 'about.css';
+@import 'transition.css';
+
+body {
+  font-family: var(--font-primary);
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}

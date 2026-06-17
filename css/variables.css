@@ -1,0 +1,25 @@
+:root {
+  /* Grid */
+  --columns: 12;
+  --gutter: 24px;
+  --padding-x: 24px;
+  --padding-top: 128px;
+  --padding-bottom: 24px;
+
+  /* Colors — light */
+  --color-bg: #ffffff;
+  --color-text: #000000;
+  --color-text-secondary: #303030;
+  --color-placeholder: #f0f0f0;
+
+  /* Typography */
+  --font-primary: 'Inter', sans-serif;
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Sizes */
+  --font-size-nav: 13px;
+  --font-size-body: 18px;
+  --nav-height: 60px;
+}

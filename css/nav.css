@@ -1,0 +1,57 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 20px var(--padding-x);
+  background-color: var(--color-bg);
+}
+
+.nav__inner {
+  display: grid;
+  grid-template-columns: repeat(var(--columns), 1fr);
+  gap: var(--gutter);
+  align-items: baseline;
+}
+
+.nav__logo {
+  grid-column: 1 / 4;
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-body);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.nav__link {
+  font-family: var(--font-primary);
+  font-weight: var(--font-weight-light);
+  font-size: var(--font-size-nav);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  transition: font-weight 0.2s ease;
+}
+
+.nav__link:hover {
+  font-weight: var(--font-weight-medium);
+}
+
+.nav__link--active {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+}
+
+.nav__link--projects {
+  grid-column: 7;
+}
+
+.nav__link--about {
+  grid-column: 10;
+}
+
+.nav__link--contact {
+  grid-column: 12;
+  text-align: right;
+}

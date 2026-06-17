@@ -11,19 +11,25 @@
   <link rel="stylesheet" href="/css/style.css">
   <style>
     .four-oh-four {
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-      width: 100%;
-    }
-
-    .four-oh-four__scene {
-      width: 100%;
+      position: relative;
+      width: 100vw;
       aspect-ratio: 16 / 9;
     }
 
+    .four-oh-four__scene {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+    }
+
     .four-oh-four__content {
-      padding: 24px var(--padding-x);
+      position: absolute;
+      z-index: 1;
+      bottom: 16px;
+      left: 0;
+      width: 100%;
+      text-align: center;
     }
 
     .four-oh-four__title {

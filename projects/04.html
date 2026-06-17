@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Platform Patterns — Leander Mutschler</title>
+  <title>Platform Patterns — leander.design</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
@@ -18,7 +18,7 @@
 
       <div class="project-detail__content">
 
-        <h1 class="project-detail__title">Platform Patterns for Complex Cybersecurity Workflows</h1>
+        <h1 class="project-detail__title">Platform Patterns for AI-Enriched Cybersecurity Workflows</h1>
 
         <div class="project-detail__section">
           <span class="project-detail__section-label">Info</span>
@@ -43,8 +43,40 @@
         <div class="project-detail__section">
           <span class="project-detail__section-label">Intro</span>
           <div class="project-detail__section-body">
-            <p class="opening">Project description goes here.</p>
+            <p class="opening">A platform UX project focused on reworking end-to-end alert and remediation flows, using AI correlation to enrich alert data and create clearer paths from triage to action.</p>
+            <p>Rapid7's alert workflows needed to support increasingly complex cybersecurity scenarios. Alerts were not just isolated events; they could be connected to related signals, affected assets, investigations, remediation steps and customer communication. The challenge was to rethink how these workflows could become clearer, more actionable and more consistent across the platform.</p>
+
+            <h2>The challenge</h2>
+            <p>Security teams need to move quickly from signal to decision. When an alert is raised, users need to understand what happened, why it matters, what other activity it relates to, and what action should be taken next.</p>
+            <p>This project explored how AI correlation could improve that experience by connecting related alerts, enriching the surrounding context and helping users make better triage and remediation decisions. The work also needed to consider managed client scenarios, where Rapid7 analysts may handle investigation and communication on behalf of customers.</p>
+            <p>That created a more complex design challenge: the workflow had to support both direct platform users and managed service workflows involving analysts, customer advisors and requests for information.</p>
+
+            <h2>Approach</h2>
+            <p>The work focused on reworking the end-to-end flow across alerts and remediation. Rather than treating alert detail, investigation, customer communication and remediation as separate experiences, the project looked at how they could connect into a more coherent workflow.</p>
+            <p>I collaborated with principal UX designers, engineers and product stakeholders to explore how AI-enriched alert data could be structured, surfaced and acted on. This included looking at how correlated alerts should be grouped, how additional context should be introduced, and how users could move from understanding an alert to deciding whether to remediate, escalate, request more information or ignore it.</p>
+            <p>A key part of the work was designing for managed client workflows. In these scenarios, Rapid7 analysts may need to communicate with customers through RFIs, or requests for information, to gather missing context before deciding on the next action. The pattern needed to support a back-and-forth workflow without losing the state of the alert, the evidence behind it or the recommended remediation path.</p>
+
+            <h2>Pattern evolution</h2>
+            <p>The project helped evolve platform patterns for AI-led cybersecurity workflows. These patterns were less about individual components and more about how complex decisions should be structured across the product.</p>
+            <p>The work explored patterns for enriched alert summaries, correlated evidence, recommended actions, investigation context, remediation states and customer communication. It also helped define how users should move between overview, detail, decision and action states without feeling like they were jumping between disconnected product areas.</p>
+            <p>The goal was to create a stronger workflow model: one where AI helped surface relationships and context, but the interface still supported human judgement, review and accountability.</p>
+
+            <h2>Prototyping and executive storytelling</h2>
+            <p>The work resulted in prototypes that showed how an AI-enriched alert and remediation experience could work across the platform. These prototypes helped communicate the future direction of the workflow, showing how correlation, context, RFIs and remediation could come together into a clearer product experience.</p>
+            <p>The concepts were presented to executive stakeholders, including CEO-level leadership, as part of a broader exploration of how Rapid7's platform could evolve around AI-assisted security workflows.</p>
+
+            <h2>Outcome</h2>
+            <p>The project created a clearer direction for platform-level alert and remediation patterns. It helped show how AI correlation could enhance cybersecurity workflows without turning the interface into a black box, and how managed client communication could be integrated into the same product experience.</p>
+            <p>The work also demonstrated the value of platform patterns beyond layout and UI consistency. In complex cybersecurity products, patterns need to define how information, decisions and actions connect across an entire workflow.</p>
+
+            <h2>Reflection</h2>
+            <p>This project reinforced the importance of designing AI experiences around trust, context and action. AI correlation can make workflows more powerful, but only if the interface helps users understand what has been connected, why it matters and what they can do next.</p>
+            <p>The strongest patterns were the ones that made complex workflows feel more structured without removing flexibility. In security products, users need guidance, but they also need evidence, control and clear decision points.</p>
           </div>
+        </div>
+
+        <div class="project-detail__disclaimer">
+          <p>Some project details are kept private due to the nature of cybersecurity work. <a href="https://www.linkedin.com/messaging/compose/?recipient=leandermutschler" target="_blank" rel="noopener">Reach out</a> if you'd like to discuss the process in more detail.</p>
         </div>
 
       </div>

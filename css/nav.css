@@ -53,3 +53,44 @@
   grid-column: 12;
   text-align: right;
 }
+
+@media (max-width: 1000px) {
+  .nav__inner {
+    grid-template-columns: 1fr auto auto auto;
+    gap: var(--gutter);
+  }
+
+  .nav__logo {
+    grid-column: 1;
+  }
+
+  .nav__link--projects,
+  .nav__link--about,
+  .nav__link--contact {
+    grid-column: auto;
+    text-align: right;
+  }
+}
+
+@media (max-width: 600px) {
+  .nav {
+    padding: 16px var(--padding-x);
+  }
+
+  .nav__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    row-gap: 12px;
+  }
+
+  .nav__logo {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .nav__link {
+    font-size: 11px;
+  }
+}

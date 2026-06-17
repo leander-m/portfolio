@@ -12,6 +12,7 @@
 .about__visual {
   grid-column: 1 / 7;
   height: 100%;
+  position: relative;
   overflow: hidden;
 }
 

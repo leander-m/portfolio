@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — leander.design</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/favico.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .four-oh-four {
+      position: relative;
+      height: 100vh;
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .four-oh-four__scene {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .four-oh-four__content {
+      position: relative;
+      z-index: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      text-align: center;
+      padding: var(--padding-x);
+    }
+
+    .four-oh-four__title {
+      font-weight: var(--font-weight-bold);
+      font-size: 96px;
+      line-height: 1;
+      margin-bottom: 16px;
+    }
+
+    .four-oh-four__text {
+      font-weight: var(--font-weight-light);
+      font-size: var(--font-size-body);
+      margin-bottom: 32px;
+    }
+
+    .four-oh-four__link {
+      font-weight: var(--font-weight-light);
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      text-decoration-thickness: 1px;
+      transition: font-weight 0.2s ease;
+    }
+
+    .four-oh-four__link:hover {
+      font-weight: var(--font-weight-medium);
+    }
+
+    @media (max-width: 600px) {
+      .four-oh-four__title {
+        font-size: 64px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="four-oh-four">
+    <div class="four-oh-four__scene" data-us-project="uUi6NfbKiGBzOED6CUbV"></div>
+    <div class="four-oh-four__content">
+      <h1 class="four-oh-four__title">404</h1>
+      <p class="four-oh-four__text">Page not found.</p>
+      <a href="/index.html" class="four-oh-four__link">Back to projects</a>
+    </div>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/gh/hiunicornstudio/unicornstudio.js@v2.2.5/dist/unicornStudio.umd.js"></script>
+  <script>UnicornStudio.init();</script>
+</body>
+</html>

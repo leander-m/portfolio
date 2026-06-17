@@ -35,3 +35,18 @@
 .about__content p:last-child {
   margin-bottom: 0;
 }
+
+.about__cv-link {
+  font-weight: var(--font-weight-light);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1px;
+  transition: font-weight 0.2s ease;
+}
+
+.about__cv-link:hover {
+  font-weight: var(--font-weight-medium);
+}

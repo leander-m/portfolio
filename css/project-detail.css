@@ -1,12 +1,6 @@
 .project-detail {
   padding-top: var(--padding-top);
   padding-bottom: var(--padding-bottom);
-  height: 100vh;
-  overflow: hidden;
-}
-
-.project-detail > .grid {
-  height: calc(100vh - var(--padding-top) - var(--padding-bottom));
 }
 
 .project-detail__content {
@@ -15,16 +9,16 @@
   grid-template-columns: 1fr 4fr 1fr;
   gap: var(--gutter);
   align-content: start;
-  overflow-y: auto;
-  height: 100%;
   color: var(--color-text-secondary);
 }
 
 .project-detail__image {
   grid-column: 7 / 13;
+  position: sticky;
+  top: var(--padding-top);
+  align-self: start;
   background-color: var(--color-placeholder);
   aspect-ratio: 1 / 1;
-  align-self: start;
 }
 
 .project-detail__image img {

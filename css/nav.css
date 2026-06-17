@@ -5,7 +5,7 @@
   width: 100%;
   z-index: 100;
   padding: 20px var(--padding-x);
-  background-color: var(--color-bg);
+  background-color: transparent;
 }
 
 .nav__inner {

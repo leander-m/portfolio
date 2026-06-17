@@ -36,7 +36,6 @@
 /* H1 — project title */
 .project-detail__title {
   grid-column: 2 / 3;
-  font-family: var(--font-primary);
   font-weight: var(--font-weight-bold);
   font-size: 48px;
   line-height: 0.98;
@@ -53,10 +52,14 @@
   padding-bottom: 24px;
 }
 
+.project-detail__section:first-child {
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
 /* Section label — left column */
 .project-detail__section-label {
   grid-column: 1;
-  font-family: var(--font-primary);
   font-weight: var(--font-weight-light);
   font-size: 12px;
   letter-spacing: 0.04em;
@@ -66,7 +69,6 @@
 
 /* Opening sentence */
 .project-detail__section-body .opening {
-  font-family: var(--font-primary);
   font-weight: var(--font-weight-bold);
   font-size: 18px;
   line-height: 1.6;
@@ -76,7 +78,6 @@
 /* Body text */
 .project-detail__section-body {
   grid-column: 2;
-  font-family: var(--font-primary);
   font-weight: var(--font-weight-light);
   font-size: 18px;
   line-height: 1.33;
@@ -92,7 +93,6 @@
 
 /* H2 — sub-headings */
 .project-detail__section-body h2 {
-  font-family: var(--font-primary);
   font-weight: var(--font-weight-bold);
   font-size: 27px;
   line-height: 1.3;
@@ -121,7 +121,6 @@
 
 .project-detail__info-table td {
   padding: 12px 0;
-  font-family: var(--font-primary);
   font-weight: var(--font-weight-light);
   font-size: 12px;
   letter-spacing: 0.04em;

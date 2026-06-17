@@ -24,14 +24,12 @@
 }
 
 .project-card__number {
-  font-family: var(--font-primary);
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-body);
   margin-bottom: 16px;
 }
 
 .project-card__title {
-  font-family: var(--font-primary);
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-body);
   line-height: 1.4;

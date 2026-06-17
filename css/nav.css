@@ -17,15 +17,13 @@
 
 .nav__logo {
   grid-column: 1 / 4;
-  font-family: var(--font-primary);
-  font-weight: var(--font-weight-bold);
+  font-weight: 900;
   font-size: var(--font-size-body);
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
 .nav__link {
-  font-family: var(--font-primary);
   font-weight: var(--font-weight-light);
   font-size: var(--font-size-nav);
   letter-spacing: 0.04em;
